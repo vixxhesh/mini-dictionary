@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f2f2f2;
+
+}
+
+.container{
+    background-color: antiquewhite;
+    width: 90vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.search-box input {
+    height: 40px;
+    width: 70%;
+    position: relative;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #ff9b00;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.heading {
+    margin-bottom: 2px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+
+}
+
+.heading h1{
+    top: 40px;
+    position: relative;
+    font-size: 40px;
+    color: #1f194c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.search-box button {
+    position: relative;
+    height: 40px;
+    width: 20%;
+    border: none;
+    left: 20px ;
+    background: #ff9b00;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #666;
+    color: #fff;
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.result .word button {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 19px;;
+}
+
+.result .details {
+    display: flex;
+    gap: 5px;
+    color:#666;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.result .word-meaning{
+    color: #413124;
+    margin: 10px;
+}
+
+.result .word-example{
+    color: #413124;
+    font-style: italic;
+    border-left: 5px solid #ff9b00;
+    padding-left: 20px;
+    margin-top: 30px;
+}
